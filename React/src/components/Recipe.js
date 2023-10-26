@@ -14,7 +14,6 @@ export default function Recipe() {
     React.useEffect(() => {
         axios.get(URL+`recipe/?id=${id}&format=json`).then(res => {
             setRecipe(res.data[0])
-            console.log(res.data[0])
         });
     }, []);
 
