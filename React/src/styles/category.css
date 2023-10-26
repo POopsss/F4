@@ -1,0 +1,20 @@
+.recipe {
+    margin: 15px 25px;
+    color: #ada666;
+    text-decoration: none;
+}
+
+.recipe a {
+    display: block;
+    padding-left: 4%;
+    height: 100%;
+    color: #ada666;
+    background: #212121;
+    border: 2px #ada666 solid;
+    border-radius: 15px;
+}
+
+.recipe a:hover {
+    background: #ada666;
+    color: #212121;
+}

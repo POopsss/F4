@@ -1,0 +1,22 @@
+.category {
+    margin-left: 4%;
+    border: 1px #ada666 solid;
+    border-radius: 15px;
+}
+
+.category h2 {
+    margin-left: 32px;
+}
+
+.category p {
+    color: #ada666;
+    background: #212121;
+    padding: 16px 32px;
+    border-top: 1px #ada666 solid;
+    border-bottom: 1px #ada666 solid;
+}
+
+.category p:hover {
+    color: #212121;
+    background: #ada666;
+}
