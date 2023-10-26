@@ -23,7 +23,7 @@ export default function Home() {
             <div className="category">
                 <h2>Категории</h2>
                 { Object.entries(categories).length > 0 ? categories.map((category) => 
-                <Link to={`/${category.name}`}><p>{category.nameRU}</p></Link>
+                <Link to={`/${category.name}`} key={category.id}><p>{category.nameRU}</p></Link>
                 ) : ""}
             </div>
         </>
